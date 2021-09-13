@@ -1,0 +1,24 @@
+.about {
+    padding: 10rem 0;
+    text-align: center;
+}
+.about .list {
+    margin-bottom: 5rem;
+}
+@media screen and (min-width: 1024px)  {
+   .about {
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: center;
+       align-items: center;
+       text-align: left;
+   }
+   .about .img {
+       max-width: 50%;
+       margin: 0;
+       margin-right: 5rem;
+   }
+   .about .list {
+    margin-bottom: 0;
+   }
+}

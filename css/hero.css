@@ -1,0 +1,15 @@
+.hero {
+  padding: 30rem 0 15rem;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .hero {
+    /* background-image: url('../img/img1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    text-align: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
